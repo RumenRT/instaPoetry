@@ -1,0 +1,55 @@
+body {
+    /* background-color: #776352; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 25px;
+    height: 100%;
+    width: 100%;
+    color: black;
+    background-image: url("./Images/pen-and-paper-background-12.jpg");
+    background-size: cover;
+}
+
+/* .search{
+   background-repeat: no-repeat;
+   height:100%;
+   width:100%;
+} */
+.head {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.nav-bar {
+    list-style: none;
+    /* background-color: aqua; */
+    padding: 30px;
+    height: 165px;
+    border: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+.poem {
+    font-weight: bold;
+}
+
+.footer {
+    position: fixed;
+    text-align: left;
+    bottom: 0px;
+    width: 100%;
+    color: black;
+    padding: 12px;
+    padding-left: 12px
+}
+
+.socialmedia {
+    text-align: center;
+}
