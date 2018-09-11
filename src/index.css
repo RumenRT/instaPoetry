@@ -1,5 +1,4 @@
 body {
-    /* background-color: #776352; */
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', sans-serif;
@@ -13,19 +12,19 @@ body {
     background-size: cover;
 }
 
-/* .search{
-   background-repeat: no-repeat;
-   height:100%;
-   width:100%;
-} */
+
 .head {
     color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
 .nav-bar {
     list-style: none;
-    /* background-color: aqua; */
     padding: 30px;
     height: 165px;
     border: none;
@@ -57,4 +56,14 @@ body {
 
 a {
     color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+    
+    
+    
 }

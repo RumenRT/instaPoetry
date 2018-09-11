@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-// import Author from './Author'
-// import Title from './Title'
-// import Line from './Line'
 import Footer from './Footer'
 import Header from './Header'
 import axios from 'axios'
