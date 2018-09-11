@@ -6,6 +6,7 @@ class Header extends Component {
         return (
 <section>
             <header className="head">
+              < img href = "../public/InstaPoet.png" alt="instaPoetry logo"/>
               <h1>instaPoetry</h1>
             </header>
           </section>
